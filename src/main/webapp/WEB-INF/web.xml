@@ -11,7 +11,7 @@
   </welcome-file-list>
   <servlet>
     <description></description>
-    <display-name>FirstServlet</display-name>
+    <display-name>ModalaServlet</display-name>
     <servlet-name>FirstServlet</servlet-name>
     <servlet-class>com.servlet.FirstServlet</servlet-class>
   </servlet>
