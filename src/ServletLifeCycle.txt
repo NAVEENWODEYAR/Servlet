@@ -1,0 +1,6 @@
+Servlet Life Cycle
+
+1. Loading & Instantiation
+2. Initialization: init(), executes once in lifecycle.
+3. Request Handling : service()
+4. Destroy: destroy()

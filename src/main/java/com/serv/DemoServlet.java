@@ -22,4 +22,9 @@ public class DemoServlet extends HttpServlet{
 					pw.append("Inside doGet()");
 		System.out.println("Inside the doGet(),");
 	}
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		super.doPost(req, resp);
+	}
 }
