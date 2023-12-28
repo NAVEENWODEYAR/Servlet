@@ -5,4 +5,9 @@ Deployment Descriptor file,
 				<servlet-name> Test </servlet-name>
 				<url-pattern> /test </url-pattern>
 			</servlet-mapping>
+			<servlet>
+				<servlet-name> Test </servlet-name>
+				<servlet-class> com.text.Test </servlet-class>
+			</servlet>
 		</web-app>
+		
