@@ -1,4 +1,5 @@
 Deployment Descriptor file, 
+	- can be done using @Annotations also in new projects,
 	- Servlet configurations or Servlet mappings.
 		<web-app>
 			<servlet-mapping>

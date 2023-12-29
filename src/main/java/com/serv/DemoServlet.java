@@ -26,5 +26,8 @@ public class DemoServlet extends HttpServlet{
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		super.doPost(req, resp);
+		System.out.println("Inside the doPost()");
+		PrintWriter pw = resp.getWriter();
+					pw.append("Welcome to the Servlet programming in Java,");
 	}
 }
