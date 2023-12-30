@@ -8,5 +8,11 @@
 </head>
 <body>
 	<h1> Welcome to Jakarta Server Pages</h1>
+	
+	<%
+		String st = "Jakarta_Server_Pages";
+		int len = st.length();
+	%>
+	<%=len %>
 </body>
 </html>

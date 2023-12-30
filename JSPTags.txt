@@ -1,0 +1,21 @@
+Tags in JSP.,
+	1. Scripting tags[<%- %>] - To embed java with JSP.
+	2. Directive tags[<%@>] - Provides instructions to JSP container for processing the JSP. 
+	3. Action tags[<jsp:- />] - Performs special tasks.
+	
+	
+	SCRIPTING TAGS.
+	1. Scriptlet Tags [<%---%>]
+	2. Declaration Tag [<%!--%>]
+	3. Expression Tag [<%=-%>]
+	
+	DIRECTIVE TAGS.
+	1. Page Directive <@page attribute="value">
+	2. Include Directive <@include file="resource">
+	3.TagLib Directive <@taglib uri="-"prefix="">
+	
+	ACTION TAGS.
+	1. Include Tags <jsp:include/>
+	2. Forward Tags <jsp:forward/>
+	3. Beans Tags <jsp:useBean/>
+	
