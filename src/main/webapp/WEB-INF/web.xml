@@ -10,4 +10,15 @@
  	<servlet-name>login</servlet-name>
  	<servlet-class>com.serv.LoginServlet</servlet-class>
  </servlet>
+ 
+ <!-- 
+  <servlet-mapping>
+ 	<servlet-name>register</servlet-name>
+ 	<url-pattern>/register</url-pattern>
+ </servlet-mapping>
+ <servlet>
+ 	<servlet-name>register</servlet-name>
+ 	<servlet-class>com.serv.RegisterServlet</servlet-class>
+ </servlet>
+ -->
 </web-app>

@@ -17,7 +17,7 @@ public class LoginServlet extends HttpServlet {
 	@Override
 		protected void service(HttpServletRequest arg0, HttpServletResponse arg1) throws ServletException, IOException {
 		PrintWriter pw = arg1.getWriter();
-					pw.write("service(),");
+					pw.write("Please login here,");
 		System.out.println("Inside service(),");
 	}
 }
