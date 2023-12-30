@@ -14,7 +14,7 @@ import jakarta.servlet.http.HttpServletResponse;
 public class RegisterServlet extends HttpServlet {
 
 	/**
-	 * 
+	 * @author Naveen Wodeyar
 	 */
 	private static final long serialVersionUID = 1L;
 
@@ -23,6 +23,14 @@ public class RegisterServlet extends HttpServlet {
 //		super.doGet(req, resp);
 		PrintWriter pw = resp.getWriter();
 					pw.write("Please register here,");
-		System.out.println("Inside doGet(),");
+					
+		String name = req.getParameter("name");
+		String password = req.getParameter("password");
+		String search = req.getParameter("search");
+		
+		if(name.equals("Test") || password.equals("Test@1"))
+			resp.sendRedirect("https://www.google.com/search?q="+search);
+		else
+			resp.sendRedirect("https://www.google.com");		
 	}
 }
