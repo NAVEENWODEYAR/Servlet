@@ -21,6 +21,7 @@ public class DemoServlet extends HttpServlet{
 		PrintWriter pw = resp.getWriter();
 					pw.append("Inside doGet()");
 		System.out.println("Inside the doGet(),");
+		System.out.println(Thread.getDefaultUncaughtExceptionHandler());
 	}
 	
 	@Override
@@ -29,5 +30,6 @@ public class DemoServlet extends HttpServlet{
 		System.out.println("Inside the doPost()");
 		PrintWriter pw = resp.getWriter();
 					pw.append("Welcome to the Servlet programming in Java,");
+					
 	}
 }
